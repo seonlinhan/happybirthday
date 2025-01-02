@@ -6,10 +6,10 @@ body, html {
 
 @font-face {
     font-family: "Gilroy";
-    src: url("./font/Gilroy-Regular.woff") format("woff");
+    src: url("Gilroy-Regular.woff") format("woff");
 
     font-family: "Gilroy-medium";
-    src: url("./font/Gilroy-Medium.woff") format("woff");
+    src: url("Gilroy-Medium.woff") format("woff");
 }
 
 body {
