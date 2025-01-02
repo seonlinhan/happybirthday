@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Circle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Welcome Page -->
+    <div class="welcome-page" id="welcome-page">
+        <h1>HELLO MY FAVORITE PERSON, PUTRA!!</h1>
+        <p >I have a gift for you birthday boy! Do you want to see?</p>
+        <button class="button" id="start-button">OF COURSE!</button>
+    </div>
+
+    <!-- Birthday Page -->
+    <div class="birthday-page hidden" id="birthday-page">
+        <div class="outer-circle" id="outer-circle">
+            <div class="middle-circle">
+                <div class="circle-container" id="circle-container">
+                    <div class="circle-icon"><img src="gift-icon.png" height="50px" width="50px" alt="gift-icon"></div>
+                    <div class="circle-text" id="circle-text">Level up to</div>
+                    <div class="circle-text" id="circle-text-2">get your gift!</div>
+                </div>
+            </div>
+        </div>
+        <button class="button" id="level-up-button">Level Up</button>
+        <div class="confetti-container" id="confetti-container"></div>
+    </div>
+
+    <!-- Gift Page -->
+    <div class="gift-page hidden" id="gift-page">
+        <div class="birthdayCard">
+            <div class="cardFront">
+                <div class="front-text">
+                    <h3 class="happy">HAPPY</h3>
+                    <h2 class="bday">BIRTHDAY</h2> 
+                    <h3 class="toyou">my boy!</h3>
+                    <br>
+                </div>
+                <div class="wrap-deco">
+                    <div class="decorations"></div>
+                    <div class="decorationsTwo"></div>
+                </div> 
+                <div class="wrap-decoTwo">
+                    <div class="decorations"></div>
+                    <div class="decorationsThree"></div>
+                </div>
+                <div class="plate">
+                    <div class="bdaycake"></div>
+                    <div class="fire"></div>
+                </div>
+            </div>  
+            
+            <div class="cardInside">
+                <div class="wishes">
+                    <p>Halo sayangg ♡</p>
+                    <p>Happy birthday, my favorite person!!</p>
+                    <p>
+                        Ga kerasa yaa sayangg, ini udah ulang tahun kedua kamu yang kita rayakan berdua.
+                        Selamat ulang tahun yang ke 21 sayangkuu!!
+                        Semoga di tahun yang ke 21 ini, kamu bisa merasakan kebahagiaan yang lebih banyak,
+                        pengalaman baru yang menyenangkan, dan pencapaian sesuai dengan apa yang kamu inginkan.
+                        Semoga umur yang baru ini bisa membawakan kamu kesehatan, keberuntukan, dan kesuksesan yang lebih lagi ke dalam hidup kamu.
+                        Aku yakin kamu akan menjadi orang yang lebih hebat, lebih keren, lebih sukses lagi kedepannya.
+                        Jadi anak yang membanggakan orang tua dan abang kakakmu, serta bawa berkat dan kebahagiaan yang berlebih untuk orang-orang di sekitar kamu.
+                    </p>
+                    <p>
+                        Aku sangat sangaat berterimakasih sama Tuhan karena udah memberikan kesempatan untuk bisa merayakan ulang tahun kamu sekali lagi.
+                        Aku sangaat bersyukur karena kamu datang ke hidupku, sayangg.
+                        Aku harap kita bisa tetap merayakan tiga ribu triliun ulang tahun bersama lagi kedepannya, dengan hubungan yang lebih baik dan lebih kuat lagi.
+                        Semoga kita bisa teruus mengisi hari satu sama lain dengan penuh memori yang indah dan kebahagiaan yang melimpah.
+                        Kalau ada apa pun, kamu sangat boleh cerita sama aku, aku akan selalu ada di sini untuk kamu dan mendengarkan semua cerita kamu.
+                    </p>
+                    <p>
+                        Last but not least, aku harap kamu suka sama hadiah yang aku kasih buat kamu.
+                        Aku minta maaf karena belum bisa merayakan hari spesial ini langsung sama kamu karena keadaan kita sekarang.
+                        May your day be as beautiful and special as you are to me. Happy birthday, love of my life! 🤍
+                    </p>
+                    <p class="name"> with the biggest love,
+                        <br> your favorite girl, vale</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
