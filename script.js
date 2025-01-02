@@ -12,7 +12,7 @@ const giftBox = document.getElementById('gift-box');
 const giftContent = document.getElementById('gift-content');
 
 let clickCount = 0;
-const maxClicks = 1;
+const maxClicks = 21;
 
 startButton.addEventListener('click', () => {
     welcomePage.classList.add('fade-out');
